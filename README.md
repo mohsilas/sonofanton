@@ -76,7 +76,7 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 ## 🎠 Usage
 
 1. Set up your credentials in main.py
-2. Run the main loop:
+2. Run the main:
    ```bash
    python main.py
    ```
