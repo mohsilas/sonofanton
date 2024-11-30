@@ -1,0 +1,97 @@
+[
+  {
+    "name": "claude",
+    "description": "Generate text completion using Claude",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "The input prompt text to generate completion for"
+        }
+      },
+      "required": ["prompt"]
+    }
+  },
+  {
+    "name": "notification_send",
+    "description": "Send a notification with optional title, priority, URL and file attachment",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "The notification message content"
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional notification title"
+        },
+        "priority": {
+          "type": "integer",
+          "description": "Priority level of notification (default: 0)"
+        },
+        "url": {
+          "type": "string",
+          "description": "Optional URL to include in notification"
+        },
+        "file_path": {
+          "type": "string",
+          "description": "Optional path to file attachment"
+        }
+      },
+      "required": ["message"]
+    }
+  },
+  {
+    "name": "run_script",
+    "description": "Execute a script file with optional arguments",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "script_path": {
+          "type": "string",
+          "description": "Path to the script file to execute"
+        },
+        "args": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional list of command line arguments"
+        }
+      },
+      "required": ["script_path"]
+    }
+  },
+  {
+    "name": "save_file",
+    "description": "Save content to a file at specified path",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "string",
+          "description": "Content to save in the file"
+        },
+        "path": {
+          "type": "string",
+          "description": "Path where to save the file"
+        }
+      },
+      "required": ["content", "path"]
+    }
+  },
+  {
+    "name": "update_blog",
+    "description": "Update blog content with new text",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "string",
+          "description": "New content to update the blog with"
+        }
+      },
+      "required": ["content"]
+    }
+  }
+]
