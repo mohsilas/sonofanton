@@ -85,6 +85,3 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 
 ## 🎫 License
 This project falls under the [GNU general public license.](https://github.com/mohsilas/clipycards/blob/main/LICENSE)
-
----
-Built with ❤️ using [Anthropic's Claude](https://anthropic.com/claude)
