@@ -75,13 +75,18 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 
 ## 🎠 Usage
 
-1. Set up your credentials in main.py
-2. Run the main:
+1. Install required packages:
+   ```bash
+   pip install anthropic markdown
+   ```
+2. Set up your credentials in main.py
+3. Run the main:
    ```bash
    python main.py
    ```
-3. Send an email with your admin code in the subject line
-4. SOA will process your instructions and send notifications about the results
+4. Send an email with your admin code in the subject line
+
+5. SOA will process your instructions and send notifications about the results
 
 ## 🎫 License
 This project falls under the [GNU general public license.](https://github.com/mohsilas/clipycards/blob/main/LICENSE)
