@@ -8,9 +8,9 @@
 </div>
 <br>
 
-A lightweight AI agent that monitors emails for instructions and executes tasks on your server. Built with Claude and Pushover integration for seamless task automation and notifications.
+> A lightweight AI agent that monitors emails for instructions and executes tasks on your server. Built with Claude and Pushover integration for seamless task automation and notifications.
 
-## Features ✨
+## ✨ Features
 
 - 📧 Email monitoring with secure admin code verification
 - 🧠 Powered by Claude's AI for natural language task interpretation
@@ -18,13 +18,13 @@ A lightweight AI agent that monitors emails for instructions and executes tasks 
 - 📝 Blog management with automated Git deployment
 - 🛠️ Extensible tool system for custom functions using Anthropic's tools format
 
-## Current Use Cases 🎯
+## 🏹 Current Use Cases
 
 - Automated blog updates with Markdown support
 - Remote script execution on Linode servers
 - Task status monitoring via push notifications
 
-## Setup Requirements 🔧
+## 🧱 Setup Requirements
 
 - Python 3.x
 - Anthropic API key (for Claude)
@@ -32,7 +32,7 @@ A lightweight AI agent that monitors emails for instructions and executes tasks 
 - Gmail account with App Password
 - GitHub CLI (for blog deployment)
 
-## Configuration 🔑
+## 🛠️ Configuration
 
 Initialize the SOA service with your credentials:
 
@@ -47,7 +47,7 @@ soa = SOAService(
 )
 ```
 
-## Adding Custom Tools 🛠️
+## ⚓ Adding Custom Tools
 
 SOA uses Anthropic's tool calling format. To add new functions, update `tools.json` with your function schema. Pro tip: Feed your `tools.json` to an AI assistant to easily generate schemas for new functions. Example tool definition:
 
@@ -72,7 +72,7 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 }
 ```
 
-## Usage 📝
+## 🎠 Usage
 
 1. Set up your credentials in main.py
 2. Run the main loop:
@@ -82,9 +82,8 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 3. Send an email with your admin code in the subject line
 4. SOA will process your instructions and send notifications about the results
 
-## License 📄
-
-GLP
+## 🎫 License
+This project falls under the [GNU general public license.](https://github.com/mohsilas/clipycards/blob/main/LICENSE)
 
 ---
 Built with ❤️ using [Anthropic's Claude](https://anthropic.com/claude)
