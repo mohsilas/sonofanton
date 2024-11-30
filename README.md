@@ -89,4 +89,4 @@ SOA uses Anthropic's tool calling format. To add new functions, update `tools.js
 5. SOA will process your instructions and send notifications about the results
 
 ## 🎫 License
-This project falls under the [GNU general public license.](https://github.com/mohsilas/clipycards/blob/main/LICENSE)
+This project falls under the [GNU general public license.](https://github.com/mohsilas/sonofanton/blob/main/LICENSE)
